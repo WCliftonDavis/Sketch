@@ -1,0 +1,20 @@
+﻿body {
+}
+
+#GridContainer {
+    display: grid;
+    grid-template-columns: repeat(var(--SelectedGridSize), 1fr);
+    width: 800px;
+    grid-template-rows: repeat(var(--SelectedGridSize), 1fr);
+    height: 800px;
+    border: 1px solid black;
+    color: black;
+}
+
+.BoxesWhite {
+    background-color: white;
+}
+
+.BoxesBlack {
+    background-color: black;
+}
